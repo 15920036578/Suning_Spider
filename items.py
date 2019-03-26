@@ -1,0 +1,10 @@
+class Suning_phoneItem(scrapy.Item):
+    id = scrapy.Field()
+    title = scrapy.Field()
+    price = scrapy.Field()
+    brand = scrapy.Field()
+    model = scrapy.Field()
+    shop_name = scrapy.Field()
+    comment_count = scrapy.Field()
+    url = scrapy.Field()
+    crawl_date = scrapy.Field()
