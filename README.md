@@ -1,5 +1,5 @@
 # 苏宁爬虫
-![](https://img.shields.io/badge/Python-3.5.3-green.svg)
+![](https://img.shields.io/badge/Python-3.5.3-green.svg) ![](https://img.shields.io/badge/Scrapy-1.5.1-green.svg)
 #### 苏宁官网 - https://www.suning.com/
 |Author|Gobi Xu|
 |---|---|
