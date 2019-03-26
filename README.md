@@ -16,7 +16,7 @@
 #### Version: Python3
 ## 安装依赖库
 ```
-暂无
+pip install scrapy
 ```
 ## 类目
 #### :telephone_receiver:[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)
