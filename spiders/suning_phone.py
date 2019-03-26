@@ -17,7 +17,6 @@ from OnlineStore.items import Suning_phoneItem
 class SuningPhoneSpider(scrapy.Spider):
     name = 'suning_phone'
     allowed_domains = ['suning.com']
-    # start_urls = ['https://search.suning.com/emall/searchV1Product.do?keyword={0}&pg=01&cp=0&paging=0'.format(keyword)]
     # 需要爬取的 类目
     keyword = '手机'
     # 商品列表页的 初始页
@@ -28,8 +27,6 @@ class SuningPhoneSpider(scrapy.Spider):
     url = 'https://search.suning.com/emall/searchV1Product.do?keyword={0}&pg=01&cp=%d&paging=%d'.format(keyword)
     # 商品价格页的 地址
     price_url = 'https://icps.suning.com/icps-web/getVarnishAllPriceNoCache/0000000%s_010_0100101_0000000000_1_getClusterPrice.jsonp?callback=getClusterPrice'
-
-    # custom_settings = {}
 
     def start_requests(self):
         yield scrapy.Request(url=self.url%(self.page,self.layer), callback=self.parse)
