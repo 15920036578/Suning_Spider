@@ -6,7 +6,7 @@ import scrapy
 import re
 import json
 import datetime
-from Article.items import Suning_phoneItem
+from OnlineStore.items import Suning_phoneItem
 
 
 # 商品列表页 一共有 50页
