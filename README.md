@@ -7,17 +7,17 @@
 ****
 ## 声明
 #### 任何内容都仅用于学习交流，请勿用于任何商业用途。
-## 介绍
-- **对应的类目在items.py里**
-- **对应的爬虫在spiders/suning_xxxx.py里**
-> **目前只有爬取[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)这个类目<br>**
-> **对应的spider里有详细过程注释，请放心食用 :point_left:**
 ## 运行环境
 #### Version: Python3
 ## 安装依赖库
 ```
 pip install scrapy
 ```
+## 介绍
+- **对应的类目在items.py里**
+- **对应的爬虫在spiders/suning_xxxx.py里**
+> **目前只有爬取[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)这个类目<br>**
+> **对应的spider里有详细过程注释，请放心食用 :point_left:**
 ## 类目
 #### :telephone_receiver:[手机](https://search.suning.com/%E6%89%8B%E6%9C%BA/)
 #### 爬取字段：
